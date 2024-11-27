@@ -3,7 +3,7 @@ Este proyecto interactivo desafía a los usuarios a probar sus conocimientos de 
 
 [Enlace al proyecto](https://jairo51067.github.io/Adivinanzas-de-Informatica/)  
 
-![Imagen del proyecto](URL_DE_LA_IMAGEN)
+Imagen del proyecto
 <br>
 ![adivinanzas-de-informatica-instruciones](https://github.com/user-attachments/assets/275d3ab1-1916-485f-a31d-9ab1313da4ba)
 <br>

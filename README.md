@@ -20,23 +20,25 @@ Este proyecto es un juego interactivo diseñado para probar los conocimientos de
 - **JavaScript**: Implementación de la lógica del juego, cronómetro y Fetch API para la carga dinámica de preguntas.  
 - **SweetAlert2**: Creación de mensajes visualmente atractivos y dinámicos.  
 
-## **Instalación**  
+## Instalación  
 1. Clona el repositorio:  
-   ```bash
-   git clone https://github.com/usuario/nombre_del_proyecto.git 
+    ```bash
+    git clone https://github.com/usuario/nombre_del_proyecto.git
+    ```  
+2. Abre el archivo `index.html` en tu navegador web preferido.  
 
-2.  Abre el archivo index.html en tu navegador web favorito para ejecutar el proyecto.
+## Cómo Contribuir  
+1. Haz un fork del repositorio.  
+2. Crea una nueva rama (`git checkout -b nombre-de-la-rama`).  
+3. Realiza tus cambios.  
+4. Envía un pull request.  
 
-## Cómo Contribuir
-1.	Haz un fork del repositorio.
-2.	Crea una nueva rama:
-bash
-Copiar código
-git checkout -b nombre-de-la-rama
-3.	Realiza tus cambios y envía un pull request.
-## Licencia
-Este proyecto está bajo la licencia MIT.
-## Autor
-Este proyecto fue desarrollado por Jairo Cárdenas.
-•	Correo: jairo.cardenas.dev@gmail.com
-•	GitHub: @jairo51067
+¡Cualquier contribución es bienvenida!  
+
+## Licencia  
+Este proyecto está licenciado bajo la licencia MIT.  
+
+## Autor  
+Este proyecto fue desarrollado por **Jairo Cárdenas**.  
+- Correo electrónico: [jairo.cardenas.dev@gmail.com](mailto:jairo.cardenas.dev@gmail.com)  
+- GitHub: [@jairo51067](https://github.com/jairo51067)   

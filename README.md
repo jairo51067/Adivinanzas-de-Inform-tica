@@ -4,6 +4,11 @@ Este proyecto interactivo desafía a los usuarios a probar sus conocimientos de 
 [Enlace al proyecto](https://jairo51067.github.io/Adivinanzas-de-Informatica/)  
 
 ![Imagen del proyecto](URL_DE_LA_IMAGEN)
+<br>
+![adivinanzas-de-informatica-instruciones](https://github.com/user-attachments/assets/275d3ab1-1916-485f-a31d-9ab1313da4ba)
+<br>
+![adivinanzas-de-informaticas-juego](https://github.com/user-attachments/assets/c0e2cf6f-60d8-4dcb-86d6-ceaf3ea076ba)
+
 
 ## **Descripción**  
 Este proyecto es un juego interactivo diseñado para probar los conocimientos de informática de los usuarios mediante preguntas dinámicas y un sistema de puntuación. Inspirado en la gamificación educativa, combina aprendizaje con diversión al permitir a los jugadores medir su progreso en tiempo real y competir contra ellos mismos.  

@@ -1,7 +1,7 @@
 # **Adivinanzas de Informática**
 Este proyecto interactivo desafía a los usuarios a probar sus conocimientos de informática mediante un emocionante juego de preguntas y respuestas. Entre los desafíos superados destacan la implementación de un cronómetro funcional, la carga dinámica de preguntas desde un archivo JSON y el manejo de mensajes estilizados con SweetAlert2. Desarrollado con HTML5, CSS3 y JavaScript, este proyecto demuestra habilidades en diseño de interfaces y lógica de programación, ofreciendo una experiencia divertida y educativa.
 
-[Enlace al proyecto](URL_DEL_PROYECTO)  
+[Enlace al proyecto](https://jairo51067.github.io/Adivinanzas-de-Informatica/)  
 
 ![Imagen del proyecto](URL_DE_LA_IMAGEN)
 

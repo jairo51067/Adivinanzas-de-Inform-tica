@@ -1,0 +1,68 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body{
+  font-size: 21px;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f8ff; /* Fondo suave */
+  color: #333; /* Color de texto */
+  text-align: center; /* Centra el texto */
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  color: #255F26; /* Color verde */
+  margin-bottom: 25px;
+}
+
+h2{
+  color: #333; /* Color de texto */
+  margin-bottom: 25px;
+}
+
+#instrucciones {
+  background-color: #ffffff; /* Fondo blanco */
+  border-radius: 10px; /* Bordes redondeados */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 600px; /* Ancho máximo */
+}
+
+p {
+  margin-bottom: 20px;
+  margin: 10px 0;
+  line-height: 1.5;
+  text-align: justify; /* Justificación del texto */
+}
+
+.botonIniciar {
+  background-color: #255F26; /* Color verde */
+  color: white; /* Texto blanco */
+  border: none;
+  padding: 15px 30px;
+  cursor: pointer;
+  border-radius: 5px; /* Bordes redondeados */
+  transition: background-color 0.3s; /* Transición suave */
+  margin-top: 25px;
+}
+
+.botonIniciar:hover {
+  background-color: #45a049; /* Color más oscuro al pasar el ratón */
+}
+
+@media screen and (max-width: 768px) {
+  html, body{
+    font-size: 18px;
+  }
+}
+

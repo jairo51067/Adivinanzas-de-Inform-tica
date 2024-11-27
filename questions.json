@@ -1,0 +1,92 @@
+[
+    {
+        "question": "¿Qué es JavaScript?",
+        "answerCorrect": "Es un lenguaje de programación para añadir interactividad en la web.",
+        "answerIncorrect": [
+            "HyperText Markup Language.",
+            "Es un lenguaje de estilos para dar diseño a páginas web.",
+            "Es una estructura de datos que contiene propiedades y métodos."
+        ]
+    },
+    {
+        "question": "¿Qué significa HTML?",
+        "answerCorrect": "HyperText Markup Language.",
+        "answerIncorrect": [
+            "Es una estructura que repite instrucciones bajo una condición.",
+            "Es un leguaje usado en programación",
+            "Es una manera de organizar y almacenar datos."
+        ]
+    },
+    {
+        "question": "¿Qué es CSS?",
+        "answerCorrect": "Es un lenguaje de estilos para dar diseño a páginas web.",
+        "answerIncorrect": [
+            "Es un lenguaje de programación para añadir interactividad en la web.",
+            "Es un bloque de código que realiza una tarea específica.",
+            "Es un programa que traduce código a lenguaje máquina."
+        ]
+    },
+    {
+        "question": "¿Qué es una variable en programación?",
+        "answerCorrect": "Es un espacio en memoria para almacenar datos.",
+        "answerIncorrect": [
+            "Es una manera de organizar y almacenar datos.",
+            "Es una variable accesible desde cualquier parte del programa.",
+            "Es un archivo que contiene funciones o clases reutilizables."
+        ]
+    },
+    {
+        "question": "¿Cuál es la diferencia entre sintaxis y semántica en programación?",
+        "answerCorrect": "La sintaxis se refiere a las reglas gramaticales del lenguaje, mientras que la semántica se refiere al significado de las construcciones.",
+        "answerIncorrect": [
+            "Ambos términos son sinónimos y se refieren a lo mismo.",
+            "La sintaxis se refiere al significado y la semántica a las reglas gramaticales.",
+            "La sintaxis es la parte visual del código y la semántica la lógica."
+        ]
+    },
+    {
+        "question": "¿Qué es un algoritmo?",
+        "answerCorrect": "Es una secuencia de pasos bien definidos para resolver un problema.",
+        "answerIncorrect": [
+            "Es un programa informático completo.",
+            "Es un lenguaje de programación.",
+            "Es un error en el código."
+        ]
+    },
+    {
+        "question": "¿Cuál es la función de un compilador?",
+        "answerCorrect": "Traduce código fuente a lenguaje máquina.",
+        "answerIncorrect": [
+            "Ejecuta directamente el código fuente.",
+            "Ejecuta el código línea por línea.",
+            "Crea interfaces gráficas."
+        ]
+    },
+    {
+        "question": "¿Qué es una función en programación?",
+        "answerCorrect": "Es un bloque de código reutilizable que realiza una tarea específica.",
+        "answerIncorrect": [
+            "Es una variable que puede almacenar diferentes tipos de datos.",
+            "Es una estructura de control que permite tomar decisiones.",
+            "Es un error en el código."
+        ]
+    },
+    {
+        "question": "¿Qué es un array?",
+        "answerCorrect": "Es una estructura de datos que almacena una colección de elementos.",
+        "answerIncorrect": [
+            "Es una función que realiza operaciones matemáticas.",
+            "Es una variable que solo puede almacenar números.",
+            "Es un tipo de bucle."
+        ]
+    },
+    {
+        "question": "¿Qué es un objeto en programación orientada a objetos?",
+        "answerCorrect": "Es una entidad que representa una cosa real o abstracta con propiedades y métodos.",
+        "answerIncorrect": [
+            "Es una variable que almacena un valor numérico.",
+            "Es una función que realiza una tarea específica.",
+            "Es un tipo de bucle."
+        ]
+    }
+]

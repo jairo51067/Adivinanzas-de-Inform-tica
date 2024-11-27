@@ -1,0 +1,140 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-size: 21px;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #ffffff; /* Cambiado a blanco para mejor contraste */
+  color: #333333; /* Texto oscuro para mejor legibilidad */
+  text-align: center;
+  max-width: 768px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px 20px;
+}
+
+h1 {
+  color: #255F26; /* Color verde más oscuro */
+  margin-bottom: 25px;
+}
+
+h2 {
+  color: #333333; /* Texto oscuro para mejor legibilidad */
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.botonIniciar,
+.answer-button {
+  background-color: #255F26; /* Color verde */
+  color: #ffffff; /* Texto blanco para mejor contraste */
+  border: none;
+  padding: 7px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.botonRetornar,
+#restart {
+  background-color: #9E2900; /* Color naranja */
+  color: #ffffff; /* Texto blanco para mejor contraste */
+  border: none;
+  padding: 7px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.botonIniciar:hover,
+.answer-button:hover,
+#restart:hover {
+  background-color: #45a049; /* Color más oscuro al pasar el ratón */
+}
+
+#quiz-container {
+  background-color: #ffffff; /* Fondo blanco */
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  margin-top: 25px;
+}
+
+#question-container {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-bottom: 20px;
+}
+
+#question-container .answer-button {
+  width: 100%;
+  text-align: start;
+  margin: 1% 0;
+  font-size: 1.15rem;
+}
+
+.contenedor-cronometro {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+@media screen and (max-width: 600px) {
+  .contenedor-cronometro {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+.contenedor-cronometro button {
+  color: #ffffff; /* Texto blanco para mejor contraste */
+  background-color: #333333;
+  border: none;
+  padding: 10px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+#cronometro {
+  font-size: 1.4em;
+  color: #9E2900; /* Color naranja */
+  margin: 20px;
+}
+
+#result {
+  margin: 0 auto;
+  margin-bottom: 5%;
+}
+
+.hidden {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  html,
+  body {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  html,
+  body {
+    font-size: 14px;
+  }
+}

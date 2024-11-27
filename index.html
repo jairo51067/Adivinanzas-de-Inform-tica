@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="¡Bienvenido! Aprende a jugar y pon a prueba tus conocimientos en nuestro emocionante juego de preguntas y respuestas. ¡Comienza ahora!">
+  <link rel="stylesheet" href="css/instrucciones.css">
+  <title>Adivinanzas de Informática</title>
+</head>
+<body>
+  <h1>¡Bienvenido al Juego!</h1>
+  <h2>Adivinanzas de Informática</h2>
+  <div id="instrucciones">
+    <h2>Instrucciones del Juego</h2>
+    <p>1. Haz clic en el botón "¡Comienza el reto!" para iniciar el juego.</p>
+    <p>2. Responde las preguntas que aparecen en pantalla seleccionando una de las opciones.</p>
+    <p>3. El cronómetro comenzará a contar el tiempo. ¡Apresúrate!</p>
+    <p>4. Es tu decición usar cronómetro lo puedes detener y practicar sin el tiempo.</p>
+    <p>5. Al finalizar, verás tu puntaje final. Puedes jugar de nuevo haciendo clic en "¡Juega de nuevo!".</p>
+  </div>
+
+  <button class="botonIniciar" onclick="iniciarJuego()">¡Comienza el reto!</button>
+
+  <script>
+    function iniciarJuego() {
+      // Aquí puedes redirigir a la página del juego o iniciar el juego directamente
+      window.location.href = "./juego.html"; 
+    }
+  </script>
+</body>
+</html>

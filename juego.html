@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="¡Pon a prueba tus conocimientos con nuestro emocionante juego de preguntas y respuestas! Compite contra el tiempo y mejora tu puntaje mientras te diviertes. ¡Comienza ahora!">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="css/juego.css">
+    <title>¡A Jugar!</title>
+</head>
+
+<body>
+    <h1>¡Demuestra tu conocimiento!</h1>
+    <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 4px;">
+        <button class="botonRetornar" onclick="retornarPresentacion()">Ver instrucciones</button>
+        <button class="botonIniciar" onclick="iniciarCronometro()">¡Iniciar el reto!</button>
+    </div>
+
+    <div id="quiz-container">
+        <div id="question-container">
+            <div class="contenedor-cronometro">
+                <!-- <button id="botonPausar" onclick="pausarCronometro()">Detener Tiempo</button> -->
+                <button id="botonReiniciar" onclick="reiniciarCronometro()">Detener Tiempo</button>
+                <div id="cronometro">00:00:00</div>
+            </div>
+
+            <div id="result" class="hidden">
+                <h2>Tu puntaje final es: <span id="score"></span></h2>
+                <button id="restart">¡Juega de nuevo!</button>
+            </div>
+
+            <h2>Pregunta:</h2>
+            <h2 id="question"></h2>
+            <button class="answer-button" id="answer1"></button>
+            <button class="answer-button" id="answer2"></button>
+            <button class="answer-button" id="answer3"></button>
+            <button class="answer-button" id="answer4"></button>
+        </div>
+
+
+    </div>
+
+    <script>
+        function retornarPresentacion() {
+            // Aquí puedes redirigir a la página inicial del juego
+            window.location.href = "./index.html";
+        }
+    </script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
